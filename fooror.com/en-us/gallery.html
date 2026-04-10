@@ -120,7 +120,17 @@
   <script>
     document.documentElement.classList.add('page-is-loading');
   </script>
-
+  <style>
+    @media (max-width: 991px) {
+      .header-btn .btn-txt:nth-child(2) { display: none !important; }
+      .header-btn .btn-txt { font-size: 0.75rem !important; white-space: nowrap !important; }
+      .header-btn { width: auto !important; flex-shrink: 0 !important; }
+      .header-btn .btn-txt-mask { height: auto !important; overflow: hidden !important; }
+    }
+    @media (max-width: 479px) {
+      .header-btn .btn-txt { font-size: 0.65rem !important; }
+    }
+  </style>
 </head>
 
 <body class="body">
