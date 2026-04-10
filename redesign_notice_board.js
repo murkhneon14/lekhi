@@ -42,7 +42,7 @@ const middleAnnouncementStr = `
 
   <h3 style="font-size: 2.2rem; font-weight: 900; text-align: center; margin-bottom: 20px; line-height: 1.3;">
     🎉 Admissions Are Now Open for the <br/>
-    <span style="font-family: 'Caveat', cursive; font-size: 3.5rem; color: #D32F2F; line-height: 0.8; display: inline-block; transform: rotate(-3deg);">2025–26 Season!</span>
+    <span style="font-family: 'Caveat', cursive; font-size: 3.5rem; color: #D32F2F; line-height: 0.8; display: inline-block; transform: rotate(-3deg);">2026–27 Season!</span>
   </h3>
   <p style="font-size: 1.5rem; font-weight: 700; text-align: center; line-height: 1.6;">
     New batches starting for Class 8–10, and <span style="background: yellow; padding: 0 5px;">NEE BATCHES</span> along with Class 11–12, JEE & NEET. <br/><br/>

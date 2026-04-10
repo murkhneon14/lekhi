@@ -31,7 +31,7 @@ const elegantRedesignStr = `
 
   <h2 class="txt-56" style="line-height: 1.1; margin-bottom: 30px;">
     <span class="thin" style="color: #666;">Admissions Are Now Open for the</span><br/>
-    2025–26 Season!
+    2026–27 Season!
   </h2>
 
   <div class="txt-40" style="color: #444; font-weight: 300; line-height: 1.4; max-width: 90%;">
