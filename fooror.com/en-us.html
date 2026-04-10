@@ -152,10 +152,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&amp;display=swap" rel="stylesheet">
 
   <style>
-    /* Fix footer nav overlap with mobile bottom bar */
+    /* Fix footer nav: 4 items in single line on mobile */
     @media (max-width: 991px) {
       .footer-nav {
-        padding-bottom: 100px !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
+        gap: 12px !important;
+        padding-bottom: 80px !important;
+      }
+      .footer-nav .menu-item {
+        flex-shrink: 1 !important;
+      }
+      .footer-nav .menu-txt.small {
+        font-size: 0.8rem !important;
+        white-space: nowrap !important;
+      }
+    }
+    @media (max-width: 479px) {
+      .footer-nav {
+        gap: 8px !important;
+      }
+      .footer-nav .menu-txt.small {
+        font-size: 0.65rem !important;
       }
     }
 
@@ -861,7 +880,7 @@
                         </a><a f-link-mail="" href="mailto:thelekhitutorials@gmail.com"
                           class="f-link mail w-inline-block">
                           <div class="heading">E-mail</div>
-                          <div class="txt-24">Elvijoe60@gmail.com</div>
+                          <div class="txt-24">thelekhitutorials@gmail.com</div>
                         </a></div>
                       <div class="footer-icons-wrap">
                         <div ic-tg="" class="ic-tg"></div>
