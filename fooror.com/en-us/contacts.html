@@ -116,6 +116,49 @@
       body {
         font-size: 16px !important;
       }
+    }
+
+    /* Fix email overflow on mobile */
+    .s2-card-wrap {
+      overflow: hidden;
+    }
+
+    .s2-card-wrap .menu-txt.middle {
+      word-break: break-all;
+      overflow-wrap: break-word;
+      max-width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      .s2-card-wrap .menu-txt.middle {
+        font-size: 1.1rem !important;
+        word-break: break-all;
+        overflow-wrap: break-word;
+      }
+
+      .s2-card-wrap._w-70 {
+        overflow: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+
+      .s2-card-wrap .ver-wrap {
+        max-width: 100%;
+        overflow: hidden;
+      }
+
+      .s2-card-wrap .menu-item {
+        max-width: 100%;
+        overflow: hidden;
+      }
+    }
+
+    @media (max-width: 479px) {
+      .s2-card-wrap .menu-txt.middle {
+        font-size: 0.95rem !important;
+      }
+    }
   </style>
   <script>
     document.documentElement.classList.add('page-is-loading');
