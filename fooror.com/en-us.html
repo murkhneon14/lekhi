@@ -297,22 +297,30 @@
 }
 
 /* Fix mobile navbar Contacts button overflow */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .header-btn {
     padding: 8px 16px !important;
     min-width: auto !important;
+    max-width: none !important;
+    width: auto !important;
+    flex-shrink: 0 !important;
+  }
+  .header-btn .btn-txt-mask {
+    width: auto !important;
+    max-width: none !important;
   }
   .header-btn .btn-txt {
     font-size: 0.75rem !important;
-    white-space: nowrap;
+    white-space: nowrap !important;
+    width: auto !important;
   }
 }
 @media (max-width: 479px) {
   .header-btn {
-    padding: 6px 12px !important;
+    padding: 6px 10px !important;
   }
   .header-btn .btn-txt {
-    font-size: 0.7rem !important;
+    font-size: 0.65rem !important;
   }
 }
 </style>
