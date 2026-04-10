@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 01 Apr 2026 21:43:35 at https://fooror.com/en-us +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://fooror.com/en-us -O1 "C:\Users\Nikhil Nectar\Desktop\LeKHI TUTORIAL" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:43:56	Warning: 	Retry after error 502 (Bad Gateway) at link https://fooror.com/en-us/privacy-policy (from https://fooror.com/en-us)
+21:43:56	Error: 	"Forbidden" (403) at link https://fooror.com/href, window.location.href (from https://fooror.com/en-us)
+21:43:56	Error: 	"Forbidden" (403) at link https://fooror.com/window.location.href (from https://fooror.com/en-us)
+21:43:58	Error: 	"Forbidden" (403) at link https://fooror.com/en-us/href, window.location.href (from https://fooror.com/en-us/contacts)
+21:43:58	Error: 	"Forbidden" (403) at link https://fooror.com/en-us/window.location.href (from https://fooror.com/en-us/contacts)
+21:43:58	Warning: 	Retry after error 502 (Bad Gateway) at link https://fooror.com/en-us/privacy-policy (from https://fooror.com/en-us)
+21:43:58	Error: 	"Forbidden" (403) at link https://fooror.com/uk-ua/href, window.location.href (from https://fooror.com/uk-ua/contacts)
+21:43:58	Error: 	"Forbidden" (403) at link https://fooror.com/uk-ua/window.location.href (from https://fooror.com/uk-ua/contacts)
+21:43:59	Warning: 	Retry after error 502 (Bad Gateway) at link https://fooror.com/ (from https://fooror.com/uk-ua/privacy-policy)
+21:43:59	Error: 	"Bad Gateway" (502) after 2 retries at link https://fooror.com/en-us/privacy-policy (from https://fooror.com/en-us)
+21:43:59	Warning: 	Retry after error 502 (Bad Gateway) at link https://fooror.com/ (from https://fooror.com/uk-ua/privacy-policy)
+21:44:00	Error: 	"Bad Gateway" (502) after 2 retries at link https://fooror.com/ (from https://fooror.com/uk-ua/privacy-policy)
+
+HTTrack Website Copier/3.49-2 mirror complete in 25 seconds : 45 links scanned, 32 files written (920958 bytes overall) [328993 bytes received at 13159 bytes/sec], 929164 bytes transferred using HTTP compression in 36 files, ratio 30%, 3.0 requests per connection
+(8 errors, 4 warnings, 0 messages)

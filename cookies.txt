@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+fooror.com	TRUE	/	FALSE	1999999999	_cfuvid	VeUrX7jDTmM39yeepBMof3VO1d.dVNSNe7BDXE3_rvo-1775060016.7166903-1.0.1.1-SRbOodQK57tkxml.PQITZjRz5nHNmE4et1HlaufG5so
+fooror.com	TRUE	/	FALSE	1999999999	SameSite	None
+
