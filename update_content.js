@@ -11,7 +11,7 @@ content = content.replace(
 // 2. Replace the Subheadline stats
 content = content.replace(
   /<p fetchpriority="high" class="txt-40">500K\+ tickets<\/p><p fetchpriority="high" class="txt-20">sell to our customers every year<\/p>/,
-  '<p fetchpriority="high" class="txt-40">100+ students</p><p fetchpriority="high" class="txt-20">got admission in NERIST</p>'
+  '<p fetchpriority="high" class="txt-40">30+ students</p><p fetchpriority="high" class="txt-20">got admission in NERIST</p>'
 );
 
 // 3. Replace the Header Logo and remove "event design studio"
