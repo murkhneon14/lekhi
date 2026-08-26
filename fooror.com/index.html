@@ -177,7 +177,22 @@
     /* Fix for foldable/tablet screens where bottom silhouettes overlap with hero text */
     @media screen and (max-width: 991px) and (min-width: 480px) {
       .people-wrap {
-        transform: translateY(18%);
+        transform: none;
+      }
+      .row-3 {
+        width: 120% !important;
+        margin-bottom: -6em !important;
+        max-width: none !important;
+      }
+      .row-2 {
+        width: 100% !important;
+        margin-bottom: -10em !important;
+        max-width: none !important;
+      }
+      .row-1 {
+        width: 90% !important;
+        margin-bottom: -8em !important;
+        max-width: none !important;
       }
     }
   </style>
