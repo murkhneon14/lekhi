@@ -173,6 +173,13 @@
     .header-bg {
       background: white;
     }
+
+    /* Fix for foldable/tablet screens where bottom silhouettes overlap with hero text */
+    @media screen and (max-width: 991px) and (min-width: 480px) {
+      .people-wrap {
+        transform: translateY(18%);
+      }
+    }
   </style>
 </head>
 
